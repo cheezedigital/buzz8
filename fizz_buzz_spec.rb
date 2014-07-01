@@ -1,6 +1,7 @@
 require_relative 'spec_helper'
 require_relative 'fizz_buzz'
 
+
 describe FizzBuzz, 'Yeehaw mother fucker' do
 
   describe '.drink', :focus do
@@ -44,7 +45,7 @@ describe FizzBuzz, 'Yeehaw mother fucker' do
     it 'takes the number 8250 and returns FizzBuzz' do
       expect(FizzBuzz.drink(8250)).to eq 'FizzBuzz'
     end
-    
+
 
   end
 
