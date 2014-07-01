@@ -1,7 +1,6 @@
 require_relative 'spec_helper'
 require_relative 'fizz_buzz'
 
-
 describe FizzBuzz, 'Yeehaw mother fucker' do
 
   describe '.drink', :focus do
